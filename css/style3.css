@@ -113,21 +113,23 @@ main section.terceira img{
     margin: 0 2vw 0 2vw;
 }
 .terceira .divisaoCelular{
-  display: flex;
+  display: block;
 }
 .terceira ol{
+  display: flex;
   list-style: none;
   background-image: url(../src/src1/fundoGeral.png);
   background-attachment: fixed;
-  padding: 2vw 2vw 2vw 2vw;
+  padding: 2vw 0vw 2vw 0vw;
   border-radius: 30px;
   border:4px black solid ;
   margin: 0 8vw 0 8vw;
+  justify-content: space-between;
 }
 .terceira ol div#Um{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5vw;
+  margin-bottom: 0vw;
 }
 .terceira ol div#dois{
   display: flex;
@@ -148,6 +150,7 @@ main section.terceira img{
     font-style: italic;
     border: 3px rgb(255, 255, 255) solid;
     text-shadow: 4px 4px 1px black;
+    margin: 2vw;
   }
   .terceira ol div li div.card:hover {
     border-radius: 15px;
@@ -264,6 +267,7 @@ main section.terceira p {
 .terceira ol{
   padding: 2vw 2vw 2vw 2vw;
   margin: 0 2vw 0 2vw;
+  display: block;
 }
 
 .terceira ol div li div.card {
