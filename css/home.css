@@ -411,7 +411,7 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     }
 
     .homePage #tempoTela h3 {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .homePage #irmaoTela {
@@ -440,7 +440,11 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     }
 
     .homePage #irmaoTela h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        margin: 0.3vw 0 0 10px;
+    }
+    .homePage #irmaoTela p {
+        font-size: 0.8rem;
         margin: 0.3vw 0 0 10px;
     }
 
@@ -456,6 +460,9 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
 
     section.segunda .topicos2 {
         display: block;
+    }
+    section.segunda .topicos2  p {
+        font-size: 0.8rem;
     }
 
     section.segunda div.topicos2 a div.artigoUm {
@@ -476,7 +483,7 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     }
 
     section.segunda div.topicos2 a div.artigoUm h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
@@ -505,7 +512,7 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     }
 
     section.segunda div.topicos2 a div.artigoDois h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
@@ -530,7 +537,7 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     }
 
     section.segunda div.topicos2 a div.artigoTres h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
@@ -546,7 +553,7 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     }
     
     section.segunda div.topicos2 a:hover div.artigoUm h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     
     }
     
@@ -555,7 +562,7 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     }
     
     section.segunda div.topicos2 a:hover div.artigoDois h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     section.segunda div.topicos2 a:hover div.artigoTres img.um {
@@ -563,7 +570,7 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     }
     
     section.segunda div.topicos2 a:hover div.artigoTres h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     
     }
     section.segunda div.topicos2 .con-like {
