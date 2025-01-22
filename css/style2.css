@@ -144,6 +144,27 @@ main section.video iframe {
     font-size: 1rem;
     text-align: left;
 }
+@media (max-width: 1280px) {
+    main section.principal img {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    main section.principal h2 {
+        font-size: 3.5rem;
+    }
+
+    main section.principal p {
+        font-size: 2rem;
+    } 
+    main section.principal img.dois {
+        height: 20vw;
+        width: 20vw;
+    }  
+    main section.video h2 {
+        font-size: 3.5rem;
+    }
+}
 
 @media (max-width: 576px) {
     header div#texTop p {

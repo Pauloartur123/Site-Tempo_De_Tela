@@ -387,6 +387,77 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
     font-size: 2rem;
 
 }
+@media (max-width: 1280px) {
+    .homePage #irmaoTela h3 {
+        font-size: 1.8rem;
+    }
+
+    .homePage #irmaoTela {
+        height: 32vw;
+    }
+
+    section.segunda div.topicos2 a div.artigoUm {
+        height: 35vw;
+    }
+
+    section.segunda div.topicos2 a div.artigoUm h3 {
+        font-size: 1.8rem;
+    }
+
+    section.segunda div.topicos2 a div.artigoDois {
+        height: 35vw;
+    }
+
+    section.segunda div.topicos2 a div.artigoDois h3 {
+        font-size: 1.8rem;
+    }
+
+    section.segunda div.topicos2 a div.artigoTres {
+        height: 35vw;
+    }
+
+    section.segunda div.topicos2 a div.artigoTres h3 {
+        font-size: 1.8rem;
+    }
+    section.segunda div.topicos2 a div.artigoUm img {
+        width: 100%;
+    }
+    section.segunda div.topicos2 a div.artigoDois img {
+        width: 100%;
+    }
+    section.segunda div.topicos2 a div.artigoTres img {
+        width: 100%;
+    }
+    section.segunda div.topicos2 a:hover .con-like {
+        margin-left: 90%;
+    }
+    
+    section.segunda div.topicos2 a:hover div.artigoUm img.um {
+        width: 100%;
+    }
+    
+    section.segunda div.topicos2 a:hover div.artigoUm h3 {
+        font-size: 1.8rem;
+    
+    }
+    
+    section.segunda div.topicos2 a:hover div.artigoDois img.um {
+        width: 100%;
+    }
+    
+    section.segunda div.topicos2 a:hover div.artigoDois h3 {
+        font-size: 1.8rem;
+    }
+    
+    section.segunda div.topicos2 a:hover div.artigoTres img.um {
+        width: 100%;
+    }
+    
+    section.segunda div.topicos2 a:hover div.artigoTres h3 {
+        font-size: 1.8rem;
+    
+    }
+}
 
 @media (max-width: 576px) {
     section.topicos {

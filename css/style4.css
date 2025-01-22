@@ -112,7 +112,27 @@ td p.dois{
   font-size: 2.5rem;
   color: white;
 }
+@media (max-width: 1280px) {
+  main section.principal img {
+      height: 20vw;
+      width: 20vw;
+  }
 
+  main section.principal h2 {
+      font-size: 3.5rem;
+  }
+
+  main section.principal p {
+      font-size: 2rem;
+  } 
+
+  main section.terceira h2 {
+    font-size: 3.5rem;
+  }
+  main section.terceira p {
+    font-size: 2rem;
+  } 
+}
 @media (max-width: 576px) {
   header div#texTop p {
       margin: 0 0 0 50vw;
