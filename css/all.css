@@ -137,7 +137,7 @@ header a.home {
 /*--------------------------------
         Questionários
 ----------------------------------*/
-section.questionarios {
+main section.questionarios {
     display: flex;
     margin: 0vw 5vw 0vw 5vw;
     background-color: white;
@@ -145,13 +145,13 @@ section.questionarios {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-section.questionarios p {
+main section.questionarios p {
     font-size: 2rem;
     text-align: justify;
     margin: 0vw 5vw 0 5vw;
 }
 
-section.questionarios div#Borda {
+main section.questionarios div#Borda {
     border: 3px rgb(0, 0, 0) solid;
     width: 70%;
     padding: 4vw 0vw 4vw 0vw;
@@ -164,13 +164,13 @@ section.questionarios div#Borda {
     margin-right: 15%;
 }
 
-section.questionarios form {
+main section.questionarios form {
     text-align: center;
     align-items: center;
     margin: 0 5vw 0 5vw;
 }
 
-section.questionarios form h3 {
+main section.questionarios form h3 {
     font-size: 3rem;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -181,11 +181,11 @@ section.questionarios form h3 {
 
 }
 
-section.questionarios form p {
+main section.questionarios form p {
     text-align: center;
 }
 
-section.questionarios form input#Nome {
+main section.questionarios form input#Nome {
     width: 15vw;
     padding: 0.5vw 1vw 0.5vw 1.5vw;
     border-radius: 30px;
@@ -194,7 +194,16 @@ section.questionarios form input#Nome {
     margin-bottom: 1vw;
 }
 
-section.questionarios form p input#Email {
+main section.questionarios form input#NomeDois {
+    width: 15vw;
+    padding: 0.5vw 1vw 0.5vw 1.5vw;
+    border-radius: 30px;
+    border: 2px rgb(0, 0, 0) solid;
+    font-size: 1.5rem;
+    margin-bottom: 1vw;
+}
+
+main section.questionarios form p input#Email {
     width: 33vw;
     padding: 0.5vw 1vw 0.5vw 1.5vw;
     border-radius: 30px;
@@ -204,13 +213,13 @@ section.questionarios form p input#Email {
 
 }
 
-section.questionarios form label {
+main section.questionarios form label {
     font-size: 1.3rem;
     color: #616060;
 
 }
 
-section.questionarios form input#idade {
+main section.questionarios form input#idade {
     width: 15vw;
     padding: 0.5vw 1vw 0.5vw 1.5vw;
     border-radius: 30px;
@@ -220,7 +229,7 @@ section.questionarios form input#idade {
 
 }
 
-section.questionarios form input#tempoT {
+main section.questionarios form input#tempoT {
     width: 15vw;
     padding: 0.5vw 1vw 0.5vw 1.5vw;
     border-radius: 30px;
@@ -229,7 +238,7 @@ section.questionarios form input#tempoT {
 
 }
 
-section.questionarios form fieldset#checkbox {
+main section.questionarios form fieldset#checkbox {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     width: 35.5vw;
@@ -238,35 +247,35 @@ section.questionarios form fieldset#checkbox {
     text-align: center;
 }
 
-section.questionarios form fieldset#checkbox legend {
+main section.questionarios form fieldset#checkbox legend {
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
     text-align: center;
     font-weight: bold;
 }
 
-section.questionarios form fieldset#checkbox input {
+main section.questionarios form fieldset#checkbox input {
     margin-top: 0.2vw;
     margin-bottom: 0.3vw;
 }
 
-section.questionarios form label#desejo {
+main section.questionarios form label#desejo {
     font-size: 1rem;
 }
 
-section.questionarios form label#desejo input {
+main section.questionarios form label#desejo input {
     margin-top: 1vw;
 }
 
-input[type="checkbox"] {
+main section.questionarios input[type="checkbox"] {
     accent-color: rgb(2, 62, 100, 1);
 }
 
-input[type="checkbox"]:checked {
+main section.questionarios input[type="checkbox"]:checked {
     accent-color: rgb(2, 62, 100, 1);
 }
 
-section.questionarios form input#reset {
+main section.questionarios form input#reset {
     font-size: 1.5rem;
     border: 3px solid rgb(0, 0, 0);
     background-color: white;
@@ -277,7 +286,7 @@ section.questionarios form input#reset {
     padding: 0.5vw 1vw 0.5vw 1vw;
 }
 
-section.questionarios form input#submit {
+main section.questionarios form input#submit {
     font-size: 1.5rem;
     border: 2px solid rgb(0, 0, 0);
     background-image: url(../src/src1/fundoGeral.png);
@@ -287,7 +296,7 @@ section.questionarios form input#submit {
     padding: 0.5vw 1vw 0.5vw 1vw;
 }
 
-section.questionarios .Resultado h3 {
+main section.questionarios div.Resultado h3 {
     margin-top: 0vw;
     font-size: 3rem;
     font-weight: bold;
@@ -358,12 +367,12 @@ footer a.sobreNos:hover {
     text-decoration: underline;
 }
 
-button:active {
+footer button:active {
     transform: scale(0.15);
 }
 
 /*========================================*/
-.ultima {
+main section.ultima {
     margin: 0vw 5vw 0 5vw;
     padding: 5vw 2vw 5vw 2vw;
     text-align: center;
@@ -371,13 +380,13 @@ button:active {
     border-bottom-right-radius: 10px;
 }
 
-.ultima .maior {
+main section.ultima .maior {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.ultima h3 {
+main section.ultima h3 {
     font-size: 3rem;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -386,7 +395,7 @@ button:active {
     text-shadow: 2px 1px 9px rgb(190, 189, 189);
 }
 
-.ultima input#text {
+main section.ultima input#text {
     padding: 1vw 2vw 1vw 2vw;
     border-radius: 10px;
     border: 2px black solid;
@@ -394,7 +403,7 @@ button:active {
     width: 32vw;
 }
 
-.ultima form input#enviar {
+main section.ultima form input#enviar {
     margin-left: 2vw;
     padding: 1.1vw 2vw 1.1vw 2vw;
     border-radius: 10px;
@@ -405,22 +414,22 @@ button:active {
     width: 10vw;
 }
 
-form {
+main form {
     border-bottom: 2px black solid;
     padding-bottom: 1vw;
 }
 
-.maiorUm {
+main section.ultima div.maiorUm {
     display: flex;
     justify-content: space-between;
     margin-top: 1vw;
 }
 
-.ultima .maior p {
+main section.ultima .maior p {
     margin-left: 1vw;
 }
 
-.ultima .con-like {
+main section.ultima .con-like {
     margin-right: 1vw;
 }
 
@@ -620,10 +629,12 @@ form {
     align-items: center;
     z-index: 1000;
 }
+
 @media (max-width: 1280px) {
     header h1 {
         font-size: 4rem;
     }
+
     header p {
         font-size: 2rem;
     }
@@ -709,85 +720,85 @@ form {
         border: 2px black solid;
     }
 
-
-
-
-
-
-
-    section.questionarios form {
+    main section.questionarios form {
         text-align: center;
         align-items: center;
         margin: 0;
-    }    
+    }
 
-    section.questionarios div#Borda {
+    main section.questionarios div#Borda {
         width: 100%;
-        margin: 5vw 1vw 5vw 1vw;    
+        margin: 5vw 1vw 5vw 1vw;
         text-align: center;
     }
 
-    section.questionarios form h3 {
+    main section.questionarios form h3 {
         font-size: 2.5rem;
         margin-bottom: 2vw;
     }
 
-    section.questionarios form input#Nome {
+    main section.questionarios form input#Nome {
         width: 25vw;
         font-size: 1.2rem;
     }
 
-    section.questionarios form p input#Email {
+    main section.questionarios form input#NomeDois {
+        width: 25vw;
+        font-size: 1.2rem;
+    }
+
+    main section.questionarios form p input#Email {
         width: 55vw;
         font-size: 1.2rem;
     }
 
-    section.questionarios form input#idade {
+    main section.questionarios form input#idade {
         width: 25vw;
         font-size: 1.2rem;
     }
 
-    section.questionarios form input#tempoT {
+    main section.questionarios form input#tempoT {
         width: 25vw;
         font-size: 1.2rem;
     }
 
 
-    section.questionarios form fieldset#checkbox {
+    main section.questionarios form fieldset#checkbox {
         width: 69%;
     }
 
-    section.questionarios form fieldset#checkbox legend {
+    main section.questionarios form fieldset#checkbox legend {
         font-size: 1.3rem;
         color: rgb(0, 0, 0);
         text-align: center;
         font-weight: bold;
     }
 
-    section.questionarios form label#desejo {
+    main section.questionarios form label#desejo {
         display: none;
     }
 
-    section.questionarios .Resultado h3 {
+    main section.questionarios .Resultado h3 {
         font-size: 2.5rem;
     }
-    section.questionarios p {
+
+    main section.questionarios p {
         font-size: 2rem;
     }
-    
-    .ultima h3 {
+
+    main section.ultima h3 {
         font-size: 2.5rem;
     }
-    
-    .ultima input#text {
+
+    main section.ultima input#text {
         padding: 2vw 2vw 2vw 2vw;
         border-radius: 10px;
         border: 2px black solid;
         font-size: 1rem;
         width: 55vw;
     }
-    
-    .ultima form input#enviar {
+
+    main section.ultima form input#enviar {
         margin-left: 2vw;
         padding: 2vw 2vw 2vw 2vw;
         border-radius: 10px;
@@ -797,37 +808,37 @@ form {
         color: white;
         width: 20vw;
     }
-    
-    .ultima .con-like {
+
+    main section.ultima .con-like {
         width: 6vw;
     }
-    
-footer {
-    padding: 3vw 0vw 3vw 0vw;
-}
 
-footer p {
-    font-size: 0.8rem;
-    margin-right: 1vw;
-    padding: 0.5vw 2vw 0 2vw;
-}
+    footer {
+        padding: 3vw 0vw 3vw 0vw;
+    }
 
-footer ul {
-    margin-right: 1vw;
-    padding: 0vw 2vw 0vw 2vw;
-}
+    footer p {
+        font-size: 0.8rem;
+        margin-right: 1vw;
+        padding: 0.5vw 2vw 0 2vw;
+    }
 
-footer ul li {
-    margin: 0.5vw 0.8vw 0 0;
-    font-size: 2rem;
-    padding-bottom: 4vw;
-}
+    footer ul {
+        margin-right: 1vw;
+        padding: 0vw 2vw 0vw 2vw;
+    }
+
+    footer ul li {
+        margin: 0.5vw 0.8vw 0 0;
+        font-size: 2rem;
+        padding-bottom: 4vw;
+    }
 
 
-footer a.sobreNos {
-    padding: 3vw 4vw 0vw 4vw;
-    font-size: 0.8rem;
-    margin-left: 1vw;
-    margin-right: 1vw;
-}
+    footer a.sobreNos {
+        padding: 3vw 4vw 0vw 4vw;
+        font-size: 0.8rem;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
 }

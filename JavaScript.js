@@ -53,7 +53,7 @@ document.getElementById('submit').addEventListener('click', function (event) {
 
     // Captura os valores dos inputs
     var nome = document.getElementById('Nome').value;
-    var sobrenome = document.getElementById('Nome').value; // Corrigir para o segundo input
+    var sobrenome = document.getElementById('NomeDois').value; // Corrigir para o segundo input
     var email = document.getElementById('Email').value;
     var idade = document.getElementById('idade').value;
     var tempoT = document.getElementById('tempoT').value;

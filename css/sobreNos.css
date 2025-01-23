@@ -1,6 +1,7 @@
 header {
     background-image: url(../src/src6/fundo_sobre.webp);
 }
+
 header p {
     margin-left: 25vw;
 }
@@ -12,26 +13,29 @@ header p {
 main section.principal {
     margin: 0vw 5vw 0 5vw;
     padding: 10vw 2vw 5vw 2vw;
-  border-bottom: 2px black solid;
-  border-top-left-radius: 10px;
+    border-bottom: 2px black solid;
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
-  .borda{
-  padding: 0 8vw 0 8vw;
-  }
-  main section.principal p {
+}
+
+main div.borda {
+    padding: 0 8vw 0 8vw;
+}
+
+main section.principal p {
     font-size: 2.5rem;
     text-align: justify;
 }
 
-main section.principal h2{
+main section.principal h2 {
     font-weight: bold;
     font-size: 4rem;
     margin-top: 0.5vw;
-    font-style:oblique;
+    font-style: oblique;
     text-shadow: 2px 1px 9px rgb(211, 205, 205);
     text-align: center;
 }
+
 /*==========================
     segunda
 ============================*/
@@ -41,19 +45,22 @@ main section.segunda {
     padding: 10vw 2vw 5vw 2vw;
     border-radius: 0 0 10px 10px;
 }
-main section.segunda h2{
+
+main section.segunda h2 {
     font-weight: bold;
     font-size: 2.8rem;
     text-align: center;
     margin-bottom: 2vw;
 }
-main section.segunda li{
+
+main section.segunda li {
     font-size: 2rem;
     text-align: left;
     color: rgb(61, 61, 61);
     text-align: center;
 }
-main section.segunda ul{
+
+main section.segunda ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -63,77 +70,88 @@ main section.segunda ul{
 @media (max-width: 1920px) {
     main section.principal p {
         font-size: 2.3rem;
-    } 
+    }
+
     main section.segunda h2 {
         font-size: 2.5rem;
         text-align: center;
-      }
-    .segunda h3 {
+    }
+
+    main section.segunda h3 {
         font-size: 2rem;
-      }   
-      main section.segunda p {
+    }
+
+    main section.segunda p {
         font-size: 1.2rem;
         text-align: center;
-      } 
-  }
+    }
+}
 
 @media (max-width: 1280px) {
     main section.principal h2 {
         font-size: 3.5rem;
     }
-  
+
     main section.principal p {
         font-size: 2rem;
-    } 
+    }
+
     main section.segunda h2 {
         font-size: 2.5rem;
         text-align: center;
-      }
+    }
+
     .segunda h3 {
         font-size: 2rem;
-      }   
-      main section.segunda p {
+    }
+
+    main section.segunda p {
         font-size: 1.2rem;
         text-align: center;
-      } 
-  }
+    }
+}
 
 @media (max-width: 576px) {
     header div#texTop p {
         margin: 0 0 0 16vw;
     }
-  
+
     main section.principal div.maior {
         display: block;
     }
-  
+
     main section.principal img {
         height: 40vw;
         width: 90%;
         margin: 0 0 0 5%;
-  
+
     }
-  
+
     main section.principal h2 {
         font-size: 2.5rem;
         text-align: center;
     }
+
     main section.principal p {
         font-size: 1.2rem;
         text-align: justify;
-    } 
+    }
+
     main section.segunda h2 {
         font-size: 2.5rem;
         text-align: center;
-      }
-    main section.segunda ul{
+    }
+
+    main section.segunda ul {
         display: block;
     }
-    .segunda h3 {
+
+    main section.segunda h3 {
         font-size: 2rem;
-      }   
-      main section.segunda p {
+    }
+
+    main section.segunda p {
         font-size: 1.2rem;
         text-align: center;
-      } 
     }
+}

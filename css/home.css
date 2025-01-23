@@ -2,31 +2,32 @@ header {
     background-image: url(../src/src1/fundoHome.jpg);
 
 }
+
 /*==========================
     Formatação do conteúdo
 ============================*/
-section.topicos {
+main.homePage section.topicos {
     margin: 0vw 5vw 0vw 5vw;
     padding: 10vw 2vw 5vw 2vw;
     border-radius: 10px 10px 0 0;
 }
 
-.homePage .topicos {
+main.homePage section.topicos {
     display: flex;
 }
 
-#tempoTela {
+main.homePage section.topicos #tempoTela {
     margin: 0 0 15vw 0;
     padding-right: 2vw;
 }
 
-#tempoTela p:first-child {
+main.homePage section.topicos #tempoTela p:first-child {
     font-size: 1.5rem;
     margin: 0 0 0 1vw;
     text-align: justify;
 }
 
-#tempoTela h2 {
+main.homePage section.topicos #tempoTela h2 {
     font-size: 4vw;
     background-color: black;
     color: white;
@@ -38,12 +39,12 @@ section.topicos {
     text-shadow: 3px 3px 3px #b2b2b2d9;
 }
 
-#tempoTela p:last-child {
+main.homePage section.topicos #tempoTela p:last-child {
     font-size: 2rem;
     text-align: justify;
 }
 
-.homePage #irmaoTela {
+main.homePage section.topicos #irmaoTela {
     box-shadow: 2px 1px 9px black;
     height: 30vw;
     margin-left: 1vw;
@@ -53,7 +54,7 @@ section.topicos {
     transition: all 0.5s;
 }
 
-.homePage #irmaoTela img {
+main.homePage section.topicos #irmaoTela img {
     height: 17vw;
     width: 30vw;
     margin: 0 0 0.4vw 0.6px;
@@ -62,7 +63,7 @@ section.topicos {
     border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), rgb(2, 62, 100, 1));
 }
 
-.homePage .maior {
+main.homePage section.topicos div.maior {
     display: flex;
     border: 2px black solid;
     border-top: none;
@@ -72,7 +73,7 @@ section.topicos {
     padding-bottom: 0.2vw;
 }
 
-.homePage #irmaoTela img.imgDois {
+main.homePage section.topicos #irmaoTela img.imgDois {
     height: 3vw;
     width: 4vw;
     background-repeat: round;
@@ -81,12 +82,12 @@ section.topicos {
     margin: 0 0.5vw 0 0.8vw;
 }
 
-.homePage #irmaoTela .divDois h4 {
+main.homePage section.topicos #irmaoTela .divDois h4 {
     font-weight: bold;
     margin-top: 0.5vw;
 }
 
-.homePage p span {
+main.homePage section.topicos p span {
     background-color: rgb(2, 62, 100, 1);
     padding: 0.4vw 1vw 0.4vw 1vw;
     border-radius: 10vw;
@@ -99,23 +100,23 @@ section.topicos {
 
 }
 
-.homePage #irmaoTela h3 {
+main.homePage section.topicos #irmaoTela h3 {
     font-size: 2rem;
     margin: 0.3vw 0 0 10px;
     text-shadow: 3px 3px 3px #b2b2b2d9;
 }
 
-.homePage #irmaoTela p {
+main.homePage section.topicos #irmaoTela p {
     margin-left: 12px;
     color: rgb(61, 61, 61);
 }
 
-.homePage #tempoTela p {
+main.homePage section.topicos #tempoTela p {
     font-size: 2.3vw;
     color: rgb(61, 61, 61);
 }
 
-.homePage #tempoTela h3 {
+main.homePage section.topicos #tempoTela h3 {
     margin-top: 2vw;
     text-align: right;
     font-size: 1.2vw;
@@ -123,34 +124,33 @@ section.topicos {
     font-style: italic;
 }
 
-.homePage .con-like {
+main.homePage section.topicos .con-like {
     margin-top: 1vw;
     margin-left: 85%;
 }
 
-
 /*------------------------ 
         tres artigos 
 --------------------------*/
-.segunda {
+main.homePage section.segunda {
     margin: 0 5vw 0 5vw;
     padding-bottom: 10vw;
     border-radius: 0 0 10px 10px;
 }
 
-section.segunda .topicos2 {
+main.homePage section.segunda div.topicos2 {
     display: flex;
     justify-content: center;
 }
 
-section.segunda div.topicos2 a div.artigoUm {
+main.homePage section.segunda div.topicos2 a div.artigoUm {
     box-shadow: 2px 1px 9px black;
     height: 30vw;
     background-color: white;
     border: 2px black solid;
 }
 
-section.segunda div.topicos2 a div.artigoUm img {
+main.homePage section.segunda div.topicos2 a div.artigoUm img {
     height: 17vw;
     width: 26vw;
     margin: 0 0 0.5vw 0.6px;
@@ -160,7 +160,7 @@ section.segunda div.topicos2 a div.artigoUm img {
     border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), rgb(2, 62, 100, 1));
 }
 
-section.segunda div.topicos2 a div.artigoUm img.imgDois {
+main.homePage section.segunda div.topicos2 a div.artigoUm img.imgDois {
     height: 3vw;
     width: 4vw;
     background-repeat: round;
@@ -169,19 +169,25 @@ section.segunda div.topicos2 a div.artigoUm img.imgDois {
     margin: 0 0.5vw 0 0.8vw;
 }
 
-section.segunda div.topicos2 a div.artigoUm h3 {
+main.homePage section.segunda .maior {
+    display: flex;
+    border-bottom: 2px black solid;
+    margin-bottom: 1vw;
+}
+
+main.homePage section.segunda div.topicos2 a div.artigoUm h3 {
     font-size: 1.8rem;
     margin: 0.3vw 0 0 10px;
     text-shadow: 3px 3px 3px #b2b2b2d9;
     transition: ease-in-out 0.5s;
 }
 
-section.segunda div.topicos2 a div.artigoUm p {
+main.homePage section.segunda div.topicos2 a div.artigoUm p {
     margin-left: 12px;
     color: rgb(61, 61, 61);
 }
 
-section.segunda div.topicos2 a div.artigoUm p span {
+main.homePage section.segunda div.topicos2 a div.artigoUm p span {
     background-color: rgb(2, 62, 100, 1);
     padding: 0.4vw 1vw 0.4vw 1vw;
     border-radius: 10vw;
@@ -194,67 +200,7 @@ section.segunda div.topicos2 a div.artigoUm p span {
     transition: ease-in-out 0.5s;
 }
 
-
-
-
-section.segunda div.topicos2 a div.artigoDois {
-    box-shadow: 2px 1px 9px black;
-    height: 30vw;
-    background-color: white;
-    border: 2px black solid;
-    margin-left: 2vw;
-}
-
-section.segunda div.topicos2 a div.artigoDois img {
-    height: 17vw;
-    width: 26vw;
-    margin: 0 0 0.5vw 0.6px;
-    background-repeat: round;
-    border: 2px black solid;
-    transition: ease-in-out 0.5s;
-    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), rgb(2, 62, 100, 1));
-}
-
-section.segunda div.topicos2 a div.artigoDois img.imgDois {
-    height: 3vw;
-    width: 4vw;
-    background-repeat: round;
-    border: 2px black solid;
-    border-radius: 60%;
-    margin: 0 0.5vw 0 0.8vw;
-}
-
-section.segunda div.topicos2 a div.artigoDois h3 {
-    font-size: 1.8rem;
-    margin: 0.3vw 0 0 10px;
-    text-shadow: 3px 3px 3px #b2b2b2d9;
-    transition: ease-in-out 0.5s;
-}
-
-section.segunda div.topicos2 a div.artigoDois p {
-    margin-left: 12px;
-    color: rgb(61, 61, 61);
-}
-
-section.segunda div.topicos2 a div.artigoDois p span {
-    background-color: rgb(2, 62, 100, 1);
-    padding: 0.4vw 1vw 0.4vw 1vw;
-    border-radius: 10vw;
-    color: rgb(227, 227, 227);
-    font-size: 0.8rem;
-    margin: 10px 10px 0 10px;
-    margin-left: 20vw;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px black solid;
-    transition: ease-in-out 0.5s;
-}
-
-
-
-
-
-
-section.segunda div.topicos2 a div.artigoTres {
+main.homePage section.segunda div.topicos2 a div.artigoDois {
     box-shadow: 2px 1px 9px black;
     height: 30vw;
     background-color: white;
@@ -262,7 +208,7 @@ section.segunda div.topicos2 a div.artigoTres {
     margin-left: 2vw;
 }
 
-section.segunda div.topicos2 a div.artigoTres img {
+main.homePage section.segunda div.topicos2 a div.artigoDois img {
     height: 17vw;
     width: 26vw;
     margin: 0 0 0.5vw 0.6px;
@@ -270,10 +216,9 @@ section.segunda div.topicos2 a div.artigoTres img {
     border: 2px black solid;
     transition: ease-in-out 0.5s;
     border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), rgb(2, 62, 100, 1));
-
 }
 
-section.segunda div.topicos2 a div.artigoTres img.imgDois {
+main.homePage section.segunda div.topicos2 a div.artigoDois img.imgDois {
     height: 3vw;
     width: 4vw;
     background-repeat: round;
@@ -282,19 +227,19 @@ section.segunda div.topicos2 a div.artigoTres img.imgDois {
     margin: 0 0.5vw 0 0.8vw;
 }
 
-section.segunda div.topicos2 a div.artigoTres h3 {
+main.homePage section.segunda div.topicos2 a div.artigoDois h3 {
     font-size: 1.8rem;
     margin: 0.3vw 0 0 10px;
     text-shadow: 3px 3px 3px #b2b2b2d9;
     transition: ease-in-out 0.5s;
 }
 
-section.segunda div.topicos2 a div.artigoTres p {
+main.homePage section.segunda div.topicos2 a div.artigoDois p {
     margin-left: 12px;
     color: rgb(61, 61, 61);
 }
 
-section.segunda div.topicos2 a div.artigoTres p span {
+main.homePage section.segunda div.topicos2 a div.artigoDois p span {
     background-color: rgb(2, 62, 100, 1);
     padding: 0.4vw 1vw 0.4vw 1vw;
     border-radius: 10vw;
@@ -307,190 +252,240 @@ section.segunda div.topicos2 a div.artigoTres p span {
     transition: ease-in-out 0.5s;
 }
 
+main.homePage section.segunda div.topicos2 a div.artigoTres {
+    box-shadow: 2px 1px 9px black;
+    height: 30vw;
+    background-color: white;
+    border: 2px black solid;
+    margin-left: 2vw;
+}
 
+main.homePage section.segunda div.topicos2 a div.artigoTres img {
+    height: 17vw;
+    width: 26vw;
+    margin: 0 0 0.5vw 0.6px;
+    background-repeat: round;
+    border: 2px black solid;
+    transition: ease-in-out 0.5s;
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), rgb(2, 62, 100, 1));
 
+}
 
-.segunda .topicos2 a div {
+main.homePage section.segunda div.topicos2 a div.artigoTres img.imgDois {
+    height: 3vw;
+    width: 4vw;
+    background-repeat: round;
+    border: 2px black solid;
+    border-radius: 60%;
+    margin: 0 0.5vw 0 0.8vw;
+}
+
+main.homePage section.segunda div.topicos2 a div.artigoTres h3 {
+    font-size: 1.8rem;
+    margin: 0.3vw 0 0 10px;
+    text-shadow: 3px 3px 3px #b2b2b2d9;
+    transition: ease-in-out 0.5s;
+}
+
+main.homePage section.segunda div.topicos2 a div.artigoTres p {
+    margin-left: 12px;
+    color: rgb(61, 61, 61);
+}
+
+main.homePage section.segunda div.topicos2 a div.artigoTres p span {
+    background-color: rgb(2, 62, 100, 1);
+    padding: 0.4vw 1vw 0.4vw 1vw;
+    border-radius: 10vw;
+    color: rgb(227, 227, 227);
+    font-size: 0.8rem;
+    margin: 10px 10px 0 10px;
+    margin-left: 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px black solid;
+    transition: ease-in-out 0.5s;
+}
+
+main.homePage section.segunda div.topicos2 a div {
     transition: .2s ease-in;
 }
 
-section.segunda div.topicos2 a div.artigoUm:hover {
+main.homePage section.segunda div.topicos2 a div.artigoUm:hover {
     box-shadow: 2px 1px 15px black;
 }
 
-section.segunda div.topicos2 a div.artigoDois:hover {
+main.homePage section.segunda div.topicos2 a div.artigoDois:hover {
     box-shadow: 2px 1px 15px black;
 }
 
-section.segunda div.topicos2 a div.artigoTres:hover {
+main.homePage section.segunda div.topicos2 a div.artigoTres:hover {
     box-shadow: 2px 1px 15px black;
 }
 
-section.segunda div.topicos2 .con-like {
+main.homePage section.segunda div.topicos2 .con-like {
     margin-left: 85%;
     margin-top: 1vw;
     transition: all 0.5s;
 }
 
-.segunda .divDois h4 {
+main.homePage section.segunda div.divDois h4 {
     font-weight: bold;
     margin-top: 0.5vw;
 }
 
-.segunda .maior div.divDois p {
+main.homePage section.segunda div.maior div.divDois p {
     margin-left: 0;
 }
 
-
-
-
-
-
-section.segunda div.topicos2 a:hover .con-like {
+main.homePage section.segunda div.topicos2 a:hover .con-like {
     margin-left: 24.5vw
 }
 
-section.segunda div.topicos2 a:hover div.artigoUm img.um {
+main.homePage section.segunda div.topicos2 a:hover div.artigoUm img.um {
     width: 28vw;
 }
 
-section.segunda div.topicos2 a:hover div.artigoUm p span {
+main.homePage section.segunda div.topicos2 a:hover div.artigoUm p span {
     margin-left: 22vw;
 }
 
-section.segunda div.topicos2 a:hover div.artigoUm h3 {
+main.homePage section.segunda div.topicos2 a:hover div.artigoUm h3 {
+    font-size: 2rem;
+}
+
+main.homePage section.segunda div.topicos2 a:hover div.artigoDois img.um {
+    width: 28vw;
+}
+
+main.homePage section.segunda div.topicos2 a:hover div.artigoDois p span {
+    margin-left: 22vw;
+}
+
+main.homePage section.segunda div.topicos2 a:hover div.artigoDois h3 {
+    font-size: 2rem;
+}
+
+main.homePage section.segunda div.topicos2 a:hover div.artigoTres img.um {
+    width: 28vw;
+}
+
+main.homePage section.segunda div.topicos2 a:hover div.artigoTres p span {
+    margin-left: 22vw;
+}
+
+main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
     font-size: 2rem;
 
 }
 
-section.segunda div.topicos2 a:hover div.artigoDois img.um {
-    width: 28vw;
-}
-
-section.segunda div.topicos2 a:hover div.artigoDois p span {
-    margin-left: 22vw;
-}
-
-section.segunda div.topicos2 a:hover div.artigoDois h3 {
-    font-size: 2rem;
-}
-
-section.segunda div.topicos2 a:hover div.artigoTres img.um {
-    width: 28vw;
-}
-
-section.segunda div.topicos2 a:hover div.artigoTres p span {
-    margin-left: 22vw;
-}
-
-section.segunda div.topicos2 a:hover div.artigoTres h3 {
-    font-size: 2rem;
-
-}
 @media (max-width: 1920px) {
-    section.homePage div#tempoTela p {
+    main.homePage div#tempoTela p {
         font-size: 2.2vw;
     }
-  }
+}
+
 @media (max-width: 1280px) {
-    .homePage #irmaoTela h3 {
+    main.homePage #irmaoTela h3 {
         font-size: 1.8rem;
     }
 
-    .homePage #irmaoTela {
+    main.homePage #irmaoTela {
         height: 32vw;
     }
 
-    section.segunda div.topicos2 a div.artigoUm {
+    main.homePage section.segunda div.topicos2 a div.artigoUm {
         height: 35vw;
     }
 
-    section.segunda div.topicos2 a div.artigoUm h3 {
+    main.homePage section.segunda div.topicos2 a div.artigoUm h3 {
         font-size: 1.8rem;
     }
 
-    section.segunda div.topicos2 a div.artigoDois {
+    main.homePage section.segunda div.topicos2 a div.artigoDois {
         height: 35vw;
     }
 
-    section.segunda div.topicos2 a div.artigoDois h3 {
+    main.homePage section.segunda div.topicos2 a div.artigoDois h3 {
         font-size: 1.8rem;
     }
 
-    section.segunda div.topicos2 a div.artigoTres {
+    main.homePage section.segunda div.topicos2 a div.artigoTres {
         height: 35vw;
     }
 
-    section.segunda div.topicos2 a div.artigoTres h3 {
+    main.homePage section.segunda div.topicos2 a div.artigoTres h3 {
         font-size: 1.8rem;
     }
-    section.segunda div.topicos2 a div.artigoUm img {
+
+    main.homePage section.segunda div.topicos2 a div.artigoUm img {
         width: 100%;
     }
-    section.segunda div.topicos2 a div.artigoDois img {
+
+    main.homePage section.segunda div.topicos2 a div.artigoDois img {
         width: 100%;
     }
-    section.segunda div.topicos2 a div.artigoTres img {
+
+    main.homePage section.segunda div.topicos2 a div.artigoTres img {
         width: 100%;
     }
-    section.segunda div.topicos2 a:hover .con-like {
+
+    main.homePage section.segunda div.topicos2 a:hover .con-like {
         margin-left: 90%;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoUm img.um {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoUm img.um {
         width: 100%;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoUm h3 {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoUm h3 {
         font-size: 1.8rem;
-    
+
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoDois img.um {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoDois img.um {
         width: 100%;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoDois h3 {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoDois h3 {
         font-size: 1.8rem;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoTres img.um {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoTres img.um {
         width: 100%;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoTres h3 {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
         font-size: 1.8rem;
-    
+
     }
 }
 
 @media (max-width: 576px) {
-    section.topicos {
+    main.homePage section.topicos {
         padding: 8vw 2vw 5vw 2vw;
     }
 
-    .homePage .topicos {
+    main.homePage section.topicos {
         display: block;
     }
 
-    #tempoTela {
+    main.homePage section.topicos #tempoTela {
         margin: 0 8vw 15vw 8vw;
         padding-right: 0vw;
     }
 
-    #tempoTela h2 {
+    main.homePage section.topicos #tempoTela h2 {
         font-size: 5vw;
     }
 
-    section.homePage div#tempoTela p {
+    main.homePage section.topicos div#tempoTela p {
         font-size: 3vw;
     }
 
-    .homePage #tempoTela h3 {
+    main.homePage section.topicos #tempoTela h3 {
         font-size: 4vw;
     }
 
-    .homePage #irmaoTela {
+    main.homePage section.topicos #irmaoTela {
         box-shadow: 2px 1px 9px black;
         height: 60vw;
         background-color: white;
@@ -499,159 +494,165 @@ section.segunda div.topicos2 a:hover div.artigoTres h3 {
         transition: all 0.5s;
     }
 
-    .homePage #irmaoTela img {
+    main.homePage section.topicos #irmaoTela img {
         height: 30vw;
         width: 100%;
         margin: 0 0 0.4vw 0.6px;
     }
 
-    .homePage #irmaoTela img.imgDois {
+    main.homePage section.topicos #irmaoTela img.imgDois {
         height: 6vw;
         width: 8vw;
         margin: 0 1vw 0 0.8vw;
     }
 
-    .homePage p span {
+    main.homePage section.topicos p span {
         display: none;
     }
 
-    .homePage #irmaoTela h3 {
+    main.homePage section.topicos #irmaoTela h3 {
         font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
-    .homePage #irmaoTela p {
+
+    main.homePage section.topicos #irmaoTela p {
         font-size: 0.8rem;
         margin: 0.3vw 0 0 10px;
     }
 
-    .homePage #tempoTela p {
+    main.homePage section.topicos #tempoTela p {
         font-size: 5vw;
         color: rgb(61, 61, 61);
     }
 
-    .homePage .con-like {
+    main.homePage section.topicos .con-like {
         margin-left: 90%;
         width: 5vw;
     }
 
-    section.segunda .topicos2 {
+    main.homePage section.segunda .topicos2 {
         display: block;
     }
-    section.segunda .topicos2  p {
+
+    main.homePage section.segunda .topicos2 p {
         font-size: 0.8rem;
     }
 
-    section.segunda div.topicos2 a div.artigoUm {
+    main.homePage section.segunda div.topicos2 a div.artigoUm {
         height: 60vw;
         margin: 0 5vw 0 5vw;
     }
 
-    section.segunda div.topicos2 a div.artigoUm img {
+    main.homePage section.segunda div.topicos2 a div.artigoUm img {
         height: 30vw;
         width: 100%;
         margin: 0 0 0.4vw 0.6px;
     }
 
-    section.segunda div.topicos2 a div.artigoUm img.imgDois {
+    main.homePage section.segunda div.topicos2 a div.artigoUm img.imgDois {
         height: 6vw;
         width: 8vw;
         margin: 0 1vw 0 0.8vw;
     }
 
-    section.segunda div.topicos2 a div.artigoUm h3 {
+    main.homePage section.segunda div.topicos2 a div.artigoUm h3 {
         font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
-    section.segunda div.topicos2 a div.artigoUm p span {
+    main.homePage section.segunda div.topicos2 a div.artigoUm p span {
         display: none;
     }
-    section.segunda .topicos2 {
+
+    main.homePage section.segunda .topicos2 {
         display: block;
     }
 
-    section.segunda div.topicos2 a div.artigoDois {
+    main.homePage section.segunda div.topicos2 a div.artigoDois {
         height: 60vw;
         margin: 5vw 5vw 0 5vw;
     }
 
-    section.segunda div.topicos2 a div.artigoDois img {
+    main.homePage section.segunda div.topicos2 a div.artigoDois img {
         height: 30vw;
         width: 100%;
         margin: 0 0 0.4vw 0.6px;
     }
 
-    section.segunda div.topicos2 a div.artigoDois img.imgDois {
+    main.homePage section.segunda div.topicos2 a div.artigoDois img.imgDois {
         height: 6vw;
         width: 8vw;
         margin: 0 1vw 0 0.8vw;
     }
 
-    section.segunda div.topicos2 a div.artigoDois h3 {
+    main.homePage section.segunda div.topicos2 a div.artigoDois h3 {
         font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
-    section.segunda div.topicos2 a div.artigoDois p span {
+    main.homePage section.segunda div.topicos2 a div.artigoDois p span {
         display: none;
     }
-    section.segunda div.topicos2 a div.artigoTres {
+
+    main.homePage section.segunda div.topicos2 a div.artigoTres {
         height: 60vw;
         margin: 5vw 5vw 0 5vw;
     }
 
-    section.segunda div.topicos2 a div.artigoTres img {
+    main.homePage section.segunda div.topicos2 a div.artigoTres img {
         height: 30vw;
         width: 100%;
         margin: 0 0 0.4vw 0.6px;
     }
 
-    section.segunda div.topicos2 a div.artigoTres img.imgDois {
+    main.homePage section.segunda div.topicos2 a div.artigoTres img.imgDois {
         height: 6vw;
         width: 8vw;
         margin: 0 1vw 0 0.8vw;
     }
 
-    section.segunda div.topicos2 a div.artigoTres h3 {
+    main.homePage section.segunda div.topicos2 a div.artigoTres h3 {
         font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
-    section.segunda div.topicos2 a div.artigoTres p span {
+    main.homePage section.segunda div.topicos2 a div.artigoTres p span {
         display: none;
     }
-    section.segunda div.topicos2 a:hover .con-like {
+
+    main.homePage section.segunda div.topicos2 a:hover .con-like {
         margin-left: 90%;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoUm img.um {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoUm img.um {
         width: 100%;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoUm h3 {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoUm h3 {
         font-size: 1.2rem;
-    
+
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoDois img.um {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoDois img.um {
         width: 100%;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoDois h3 {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoDois h3 {
         font-size: 1.2rem;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoTres img.um {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoTres img.um {
         width: 100%;
     }
-    
-    section.segunda div.topicos2 a:hover div.artigoTres h3 {
+
+    main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
         font-size: 1.2rem;
-    
+
     }
-    section.segunda div.topicos2 .con-like {
+
+    main.homePage section.segunda div.topicos2 .con-like {
         width: 6%;
         margin-left: 90%;
     }
-    
+
 }
