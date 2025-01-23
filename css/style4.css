@@ -112,6 +112,15 @@ td p.dois{
   font-size: 2.5rem;
   color: white;
 }
+@media (max-width: 1920px) {
+  main section.principal p {
+      font-size: 2.3rem;
+  } 
+  main section.terceira p {
+    font-size: 2.2rem;
+  } 
+}
+
 @media (max-width: 1280px) {
   main section.principal img {
       height: 20vw;
