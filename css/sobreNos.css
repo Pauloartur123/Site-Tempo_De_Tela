@@ -67,7 +67,7 @@ main section.segunda ul {
     margin: 0 5vw 0 5vw;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 1281px) {
     main section.principal p {
         font-size: 2.3rem;
     }
@@ -87,31 +87,7 @@ main section.segunda ul {
     }
 }
 
-@media (max-width: 1280px) {
-    main section.principal h2 {
-        font-size: 3.5rem;
-    }
-
-    main section.principal p {
-        font-size: 2rem;
-    }
-
-    main section.segunda h2 {
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .segunda h3 {
-        font-size: 2rem;
-    }
-
-    main section.segunda p {
-        font-size: 1.2rem;
-        text-align: center;
-    }
-}
-
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     header div#texTop p {
         margin: 0 0 0 16vw;
     }

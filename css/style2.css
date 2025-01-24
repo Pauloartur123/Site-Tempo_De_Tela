@@ -144,7 +144,7 @@ main section.video div.divDois p {
     text-align: left;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 1281px) {
 
     main section.principal p {
         font-size: 2.2rem;
@@ -152,7 +152,7 @@ main section.video div.divDois p {
 
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px) and (min-width: 601px) {
     main section.principal img {
         height: 20vw;
         width: 20vw;
@@ -176,7 +176,7 @@ main section.video div.divDois p {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     header div#texTop p {
         margin: 0 0 0 20vw;
     }

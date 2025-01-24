@@ -377,17 +377,13 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
 
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 1281px) {
     main.homePage div#tempoTela p {
         font-size: 2.2vw;
     }
 }
-@media (min-width: 1281px) {
-    main.homePage div#tempoTela p {
-        font-size: 2.2vw;
-    }
-}
-@media (max-width: 1280px) {
+
+@media (min-width: 601px) and (max-width: 1280px) {
     main.homePage #irmaoTela h3 {
         font-size: 1.8rem;
     }
@@ -398,6 +394,7 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
 
     main.homePage section.segunda div.topicos2 a div.artigoUm {
         height: 35vw;
+        margin-left: 5vw;
     }
 
     main.homePage section.segunda div.topicos2 a div.artigoUm h3 {
@@ -414,81 +411,7 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
 
     main.homePage section.segunda div.topicos2 a div.artigoTres {
         height: 35vw;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoTres h3 {
-        font-size: 1.8rem;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoUm img {
-        width: 100%;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoDois img {
-        width: 100%;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoTres img {
-        width: 100%;
-    }
-
-    main.homePage section.segunda div.topicos2 a:hover .con-like {
-        margin-left: 90%;
-    }
-
-    main.homePage section.segunda div.topicos2 a:hover div.artigoUm img.um {
-        width: 100%;
-    }
-
-    main.homePage section.segunda div.topicos2 a:hover div.artigoUm h3 {
-        font-size: 1.8rem;
-
-    }
-
-    main.homePage section.segunda div.topicos2 a:hover div.artigoDois img.um {
-        width: 100%;
-    }
-
-    main.homePage section.segunda div.topicos2 a:hover div.artigoDois h3 {
-        font-size: 1.8rem;
-    }
-
-    main.homePage section.segunda div.topicos2 a:hover div.artigoTres img.um {
-        width: 100%;
-    }
-
-    main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
-        font-size: 1.8rem;
-
-    }
-}
-@media (min-width: 601px) {
-    main.homePage #irmaoTela h3 {
-        font-size: 1.8rem;
-    }
-
-    main.homePage #irmaoTela {
-        height: 32vw;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoUm {
-        height: 35vw;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoUm h3 {
-        font-size: 1.8rem;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoDois {
-        height: 35vw;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoDois h3 {
-        font-size: 1.8rem;
-    }
-
-    main.homePage section.segunda div.topicos2 a div.artigoTres {
-        height: 35vw;
+        margin-right: 5vw;
     }
 
     main.homePage section.segunda div.topicos2 a div.artigoTres h3 {

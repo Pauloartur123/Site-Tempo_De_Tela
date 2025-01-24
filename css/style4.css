@@ -126,7 +126,7 @@ main section.terceira .titulo2 {
   color: white;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 1281px) {
   main section.principal p {
     font-size: 2.3rem;
   }
@@ -136,7 +136,7 @@ main section.terceira .titulo2 {
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px) and (min-width: 601px) {
   main section.principal img {
     height: 20vw;
     width: 20vw;
@@ -159,7 +159,7 @@ main section.terceira .titulo2 {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   header div#texTop p {
     margin: 0 0 0 50vw;
   }
