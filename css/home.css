@@ -381,9 +381,18 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
     main.homePage div#tempoTela p {
         font-size: 2.2vw;
     }
+    
+    main.homePage section.segunda div.topicos2 a div.artigoUm {
+        margin-left: 5vw;
+    }
+
+    main.homePage section.segunda div.topicos2 a div.artigoTres {
+        margin-right: 5vw;
+    }
+
 }
 
-@media (min-width: 601px) and (max-width: 1280px) {
+@media (max-width: 1280px) and (min-width: 601px){
     main.homePage #irmaoTela h3 {
         font-size: 1.8rem;
     }
