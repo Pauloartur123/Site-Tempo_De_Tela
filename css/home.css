@@ -530,11 +530,11 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
         width: 5vw;
     }
 
-    main.homePage section.segunda .topicos2 {
+    main.homePage section.segunda div.topicos2 {
         display: block;
     }
 
-    main.homePage section.segunda .topicos2 p {
+    main.homePage section.segunda div.topicos2 p {
         font-size: 0.8rem;
     }
 
