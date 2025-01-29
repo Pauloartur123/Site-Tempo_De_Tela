@@ -143,14 +143,14 @@ main.homePage section.segunda div.topicos2 {
     justify-content: center;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoUm {
+main.homePage section.segunda div.topicos2  div.artigoUm {
     box-shadow: 2px 1px 9px black;
     height: 30vw;
     background-color: white;
     border: 2px black solid;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoUm img {
+main.homePage section.segunda div.topicos2  div.artigoUm img {
     height: 17vw;
     width: 26vw;
     margin: 0 0 0.5vw 0.6px;
@@ -160,7 +160,7 @@ main.homePage section.segunda div.topicos2 a div.artigoUm img {
     border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), rgb(2, 62, 100, 1));
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoUm img.imgDois {
+main.homePage section.segunda div.topicos2  div.artigoUm img.imgDois {
     height: 3vw;
     width: 4vw;
     background-repeat: round;
@@ -175,19 +175,19 @@ main.homePage section.segunda .maior {
     margin-bottom: 1vw;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoUm h3 {
+main.homePage section.segunda div.topicos2  div.artigoUm h3 {
     font-size: 1.8rem;
     margin: 0.3vw 0 0 10px;
     text-shadow: 3px 3px 3px #b2b2b2d9;
     transition: ease-in-out 0.5s;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoUm p {
+main.homePage section.segunda div.topicos2  div.artigoUm p {
     margin-left: 12px;
     color: rgb(61, 61, 61);
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoUm p span {
+main.homePage section.segunda div.topicos2  div.artigoUm p span {
     background-color: rgb(2, 62, 100, 1);
     padding: 0.4vw 1vw 0.4vw 1vw;
     border-radius: 10vw;
@@ -200,7 +200,7 @@ main.homePage section.segunda div.topicos2 a div.artigoUm p span {
     transition: ease-in-out 0.5s;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoDois {
+main.homePage section.segunda div.topicos2  div.artigoDois {
     box-shadow: 2px 1px 9px black;
     height: 30vw;
     background-color: white;
@@ -208,7 +208,7 @@ main.homePage section.segunda div.topicos2 a div.artigoDois {
     margin-left: 2vw;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoDois img {
+main.homePage section.segunda div.topicos2  div.artigoDois img {
     height: 17vw;
     width: 26vw;
     margin: 0 0 0.5vw 0.6px;
@@ -218,7 +218,7 @@ main.homePage section.segunda div.topicos2 a div.artigoDois img {
     border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), rgb(2, 62, 100, 1));
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoDois img.imgDois {
+main.homePage section.segunda div.topicos2  div.artigoDois img.imgDois {
     height: 3vw;
     width: 4vw;
     background-repeat: round;
@@ -227,19 +227,19 @@ main.homePage section.segunda div.topicos2 a div.artigoDois img.imgDois {
     margin: 0 0.5vw 0 0.8vw;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoDois h3 {
+main.homePage section.segunda div.topicos2  div.artigoDois h3 {
     font-size: 1.8rem;
     margin: 0.3vw 0 0 10px;
     text-shadow: 3px 3px 3px #b2b2b2d9;
     transition: ease-in-out 0.5s;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoDois p {
+main.homePage section.segunda div.topicos2  div.artigoDois p {
     margin-left: 12px;
     color: rgb(61, 61, 61);
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoDois p span {
+main.homePage section.segunda div.topicos2  div.artigoDois p span {
     background-color: rgb(2, 62, 100, 1);
     padding: 0.4vw 1vw 0.4vw 1vw;
     border-radius: 10vw;
@@ -252,7 +252,7 @@ main.homePage section.segunda div.topicos2 a div.artigoDois p span {
     transition: ease-in-out 0.5s;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoTres {
+main.homePage section.segunda div.topicos2  div.artigoTres {
     box-shadow: 2px 1px 9px black;
     height: 30vw;
     background-color: white;
@@ -260,7 +260,7 @@ main.homePage section.segunda div.topicos2 a div.artigoTres {
     margin-left: 2vw;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoTres img {
+main.homePage section.segunda div.topicos2  div.artigoTres img {
     height: 17vw;
     width: 26vw;
     margin: 0 0 0.5vw 0.6px;
@@ -271,7 +271,7 @@ main.homePage section.segunda div.topicos2 a div.artigoTres img {
 
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoTres img.imgDois {
+main.homePage section.segunda div.topicos2  div.artigoTres img.imgDois {
     height: 3vw;
     width: 4vw;
     background-repeat: round;
@@ -280,19 +280,19 @@ main.homePage section.segunda div.topicos2 a div.artigoTres img.imgDois {
     margin: 0 0.5vw 0 0.8vw;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoTres h3 {
+main.homePage section.segunda div.topicos2  div.artigoTres h3 {
     font-size: 1.8rem;
     margin: 0.3vw 0 0 10px;
     text-shadow: 3px 3px 3px #b2b2b2d9;
     transition: ease-in-out 0.5s;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoTres p {
+main.homePage section.segunda div.topicos2  div.artigoTres p {
     margin-left: 12px;
     color: rgb(61, 61, 61);
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoTres p span {
+main.homePage section.segunda div.topicos2  div.artigoTres p span {
     background-color: rgb(2, 62, 100, 1);
     padding: 0.4vw 1vw 0.4vw 1vw;
     border-radius: 10vw;
@@ -305,19 +305,19 @@ main.homePage section.segunda div.topicos2 a div.artigoTres p span {
     transition: ease-in-out 0.5s;
 }
 
-main.homePage section.segunda div.topicos2 a div {
+main.homePage section.segunda div.topicos2  div {
     transition: .2s ease-in;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoUm:hover {
+main.homePage section.segunda div.topicos2  div.artigoUm:hover {
     box-shadow: 2px 1px 15px black;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoDois:hover {
+main.homePage section.segunda div.topicos2  div.artigoDois:hover {
     box-shadow: 2px 1px 15px black;
 }
 
-main.homePage section.segunda div.topicos2 a div.artigoTres:hover {
+main.homePage section.segunda div.topicos2 div.artigoTres:hover {
     box-shadow: 2px 1px 15px black;
 }
 
@@ -340,39 +340,39 @@ main.homePage section.segunda div.topicos2 a:hover .con-like {
     margin-left: 24.5vw
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoUm img.um {
+main.homePage section.segunda div.topicos2  div.artigoUm a:hover img.um {
     width: 28vw;
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoUm p span {
+main.homePage section.segunda div.topicos2  div.artigoUm  a:hover p span {
     margin-left: 22vw;
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoUm h3 {
+main.homePage section.segunda div.topicos2  div.artigoUm a:hover h3 {
     font-size: 2rem;
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoDois img.um {
+main.homePage section.segunda div.topicos2  div.artigoDois a:hover img.um {
     width: 28vw;
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoDois p span {
+main.homePage section.segunda div.topicos2  div.artigoDois a:hover p span {
     margin-left: 22vw;
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoDois h3 {
+main.homePage section.segunda div.topicos2  div.artigoDois a:hover h3 {
     font-size: 2rem;
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoTres img.um {
+main.homePage section.segunda div.topicos2  div.artigoTres a:hover img.um {
     width: 28vw;
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoTres p span {
+main.homePage section.segunda div.topicos2  div.artigoTres a:hover p span {
     margin-left: 22vw;
 }
 
-main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
+main.homePage section.segunda div.topicos2 div.artigoTres a:hover h3 {
     font-size: 2rem;
 
 }
@@ -382,11 +382,11 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
         font-size: 2.2vw;
     }
     
-    main.homePage section.segunda div.topicos2 a div.artigoUm {
+    main.homePage section.segunda div.topicos2 div.artigoUm {
         margin-left: 5vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoTres {
+    main.homePage section.segunda div.topicos2 div.artigoTres {
         margin-right: 5vw;
     }
 
@@ -401,24 +401,24 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
         height: 32vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoUm {
+    main.homePage section.segunda div.topicos2 div.artigoUm {
         height: 35vw;
         margin-left: 5vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoUm h3 {
+    main.homePage section.segunda div.topicos2 div.artigoUm h3 {
         font-size: 1.8rem;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoDois {
+    main.homePage section.segunda div.topicos2 div.artigoDois {
         height: 35vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoDois h3 {
+    main.homePage section.segunda div.topicos2 div.artigoDois h3 {
         font-size: 1.8rem;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoTres {
+    main.homePage section.segunda div.topicos2 div.artigoTres {
         height: 35vw;
         margin-right: 5vw;
     }
@@ -427,44 +427,44 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
         font-size: 1.8rem;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoUm img {
+    main.homePage section.segunda div.topicos2  div.artigoUm img {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoDois img {
+    main.homePage section.segunda div.topicos2  div.artigoDois img {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoTres img {
+    main.homePage section.segunda div.topicos2  div.artigoTres img {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover .con-like {
+    main.homePage section.segunda div.topicos2 .con-like {
         margin-left: 90%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoUm img.um {
+    main.homePage section.segunda div.topicos2 div.artigoUm  a:hover img.um {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoUm h3 {
+    main.homePage section.segunda div.topicos2 div.artigoUm a:hover h3  {
         font-size: 1.8rem;
 
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoDois img.um {
+    main.homePage section.segunda div.topicos2  div.artigoDois  a:hover img.um {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoDois h3 {
+    main.homePage section.segunda div.topicos2 div.artigoDois  a:hover h3 {
         font-size: 1.8rem;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoTres img.um {
+    main.homePage section.segunda div.topicos2 div.artigoTres a:hover img.um {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
+    main.homePage section.segunda div.topicos2  div.artigoTres a:hover h3 {
         font-size: 1.8rem;
 
     }
@@ -549,29 +549,29 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
         font-size: 0.8rem;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoUm {
+    main.homePage section.segunda div.topicos2  div.artigoUm {
         height: 60vw;
         margin: 0 5vw 0 5vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoUm img {
+    main.homePage section.segunda div.topicos2  div.artigoUm img {
         height: 30vw;
         width: 100%;
         margin: 0 0 0.4vw 0.6px;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoUm img.imgDois {
+    main.homePage section.segunda div.topicos2  div.artigoUm img.imgDois {
         height: 6vw;
         width: 8vw;
         margin: 0 1vw 0 0.8vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoUm h3 {
+    main.homePage section.segunda div.topicos2  div.artigoUm h3 {
         font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoUm p span {
+    main.homePage section.segunda div.topicos2  div.artigoUm p span {
         display: none;
     }
 
@@ -579,84 +579,83 @@ main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
         display: block;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoDois {
+    main.homePage section.segunda div.topicos2  div.artigoDois {
         height: 60vw;
         margin: 5vw 5vw 0 5vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoDois img {
+    main.homePage section.segunda div.topicos2  div.artigoDois img {
         height: 30vw;
         width: 100%;
         margin: 0 0 0.4vw 0.6px;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoDois img.imgDois {
+    main.homePage section.segunda div.topicos2  div.artigoDois img.imgDois {
         height: 6vw;
         width: 8vw;
         margin: 0 1vw 0 0.8vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoDois h3 {
+    main.homePage section.segunda div.topicos2  div.artigoDois h3 {
         font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoDois p span {
+    main.homePage section.segunda div.topicos2  div.artigoDois p span {
         display: none;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoTres {
+    main.homePage section.segunda div.topicos2  div.artigoTres {
         height: 60vw;
         margin: 5vw 5vw 0 5vw;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoTres img {
+    main.homePage section.segunda div.topicos2  div.artigoTres img {
         height: 30vw;
         width: 100%;
         margin: 0 0 0.4vw 0.6px;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoTres img.imgDois {
+    main.homePage section.segunda div.topicos2  div.artigoTres img.imgDois {
         height: 6vw;
         width: 8vw;
         margin: 0 1vw 0 0.8vw;
     }
-
-    main.homePage section.segunda div.topicos2 a div.artigoTres h3 {
+    main.homePage section.segunda div.topicos2  div.artigoTres h3 {
         font-size: 1.2rem;
         margin: 0.3vw 0 0 10px;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoTres p span {
+    main.homePage section.segunda div.topicos2  div.artigoTres p span {
         display: none;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover .con-like {
+    main.homePage section.segunda div.topicos2  .con-like {
         margin-left: 90%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoUm img.um {
+    main.homePage section.segunda div.topicos2  div.artigoUm a:hover img.um {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoUm h3 {
+    main.homePage section.segunda div.topicos2  div.artigoUm a:hover h3 {
         font-size: 1.2rem;
 
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoDois img.um {
+    main.homePage section.segunda div.topicos2  div.artigoDois a:hover img.um {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoDois h3 {
+    main.homePage section.segunda div.topicos2  div.artigoDois a:hover h3 {
         font-size: 1.2rem;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoTres img.um {
+    main.homePage section.segunda div.topicos2  div.artigoTres a:hover img.um {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 a:hover div.artigoTres h3 {
+    main.homePage section.segunda div.topicos2  div.artigoTres a:hover h3 {
         font-size: 1.2rem;
 
     }
