@@ -30,14 +30,14 @@ main section .borda {
   padding: 0 8vw 0 8vw;
 }
 
-main section.principal p {
-  font-size: 2.5rem;
+main section.principal .borda p {
+  font-size: 1.5rem;
   text-align: justify;
 }
 
 main section.principal h2 {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-top: 0.5vw;
   font-style: oblique;
   text-shadow: 2px 1px 9px rgb(211, 205, 205);
@@ -67,7 +67,7 @@ segunda
 main section.segunda h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: oblique;
   text-shadow: 2px 1px 9px rgb(211, 205, 205);
   margin: 0 8vw 2vw 8vw;
@@ -81,7 +81,7 @@ main section.segunda {
 }
 
 main section.segunda p {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: justify;
   margin: 0 8vw 0 8vw;
 }
@@ -107,7 +107,7 @@ main section.terceira {
 main section.terceira h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-top: 3vw;
   margin-bottom: 2vw;
   font-style: oblique;
@@ -115,7 +115,7 @@ main section.terceira h2 {
 }
 
 main section.terceira p {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 0 8vw 2vw 8vw;
 }
@@ -227,16 +227,16 @@ main section.terceira h3 {
 }
 
 @media (max-width: 1920px) and (min-width: 1281px) {
-  main section.principal p {
-    font-size: 2.2rem;
+  main section.principal .borda p {
+    font-size: 1.5rem;
   }
 
   main section.segunda p {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
 
   main section.terceira p {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
 }
 

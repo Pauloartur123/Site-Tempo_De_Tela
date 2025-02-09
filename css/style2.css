@@ -32,33 +32,28 @@ main section.principal div.maior {
     display: flex;
 }
 
-main section.principal p {
-    font-size: 2.5rem;
+main section.principal div.borda p {
+    font-size: 1.5rem;
     text-align: justify;
 }
 
 main section.principal h2 {
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 0.5vw;
     font-style: oblique;
     text-shadow: 2px 1px 9px rgb(211, 205, 205);
 }
 
 main section.principal img {
-    height: 18vw;
-    width: 20vw;
+    height: 14vw;
+    width: 16vw;
     margin: 1vw;
     border: 2px black solid;
     border-radius: 10px;
 }
 
-main section.principal img.dois {
-    height: 18vw;
-    width: 20vw;
-    border: 2px black solid;
-    border-radius: 10px;
-}
+
 
 
 /*==============================
@@ -91,11 +86,11 @@ main section.video h3 {
 }
 
 main section.video h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     font-style: oblique;
     text-shadow: 2px 1px 9px rgb(211, 205, 205);
-    margin: 0 8vw 1 8vw;
+    margin: 0 8vw 1vw 8vw;
 
 }
 

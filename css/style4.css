@@ -38,13 +38,13 @@ main section.principal div.maior {
 }
 
 main section.principal p {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: justify;
 }
 
 main section.principal h2 {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-top: 0.5vw;
   font-style: oblique;
   text-shadow: 2px 1px 9px rgb(211, 205, 205);
@@ -70,7 +70,7 @@ main section.terceira {
 
 main section.terceira h2 {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 0.5vw;
   font-style: oblique;
   text-shadow: 2px 1px 9px rgb(211, 205, 205);
@@ -79,7 +79,7 @@ main section.terceira h2 {
 }
 
 main section.terceira p {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: justify;
   margin-bottom: 2vw;
   text-align: center;
@@ -113,7 +113,8 @@ main section.terceira td p.um {
 }
 
 main section.terceira td p.dois {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 
 main section.terceira .titulo1 {
@@ -128,11 +129,11 @@ main section.terceira .titulo2 {
 
 @media (max-width: 1920px) and (min-width: 1281px) {
   main section.principal p {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
   }
 
   main section.terceira p {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
 }
 
