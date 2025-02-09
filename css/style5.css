@@ -185,7 +185,7 @@ footer p {
 
 @media (max-width: 600px) {
   header div#texTop p {
-    margin: 0 0 0 10vw;
+    margin: 0 0 5vw 0vw;
     font-size: 0.95rem;
   }
 
@@ -201,7 +201,7 @@ footer p {
   }
 
   main section.principal h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -215,7 +215,7 @@ footer p {
   }
 
   main section.terceira h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 

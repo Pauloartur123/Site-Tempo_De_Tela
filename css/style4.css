@@ -162,7 +162,7 @@ main section.terceira .titulo2 {
 
 @media (max-width: 600px) {
   header div#texTop p {
-    margin: 0 0 0 50vw;
+    margin: 0 0 5vw 0vw;
   }
 
   main section.principal div.maior {
@@ -177,7 +177,7 @@ main section.terceira .titulo2 {
   }
 
   main section.principal h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -191,7 +191,7 @@ main section.terceira .titulo2 {
   }
 
   main section.terceira h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -207,5 +207,15 @@ main section.terceira .titulo2 {
   main section.terceira td {
     padding: 1vw 0vw 0 0vw;
     margin: 0 5vw 0 5vw;
+    width: 90%;
+  }
+  main section.terceira .titulo1 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  main section.terceira .titulo2 {
+    font-size: 1.5rem;
+    color: white;
   }
 }

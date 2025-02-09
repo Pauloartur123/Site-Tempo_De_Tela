@@ -173,7 +173,7 @@ main section.video div.divDois p {
 
 @media (max-width: 600px) {
     header div#texTop p {
-        margin: 0 0 0 20vw;
+        margin: 0 0 5vw 0vw;
     }
 
     main section.principal div.maior {
@@ -188,12 +188,12 @@ main section.video div.divDois p {
     }
 
     main section.principal h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
     }
 
     main section.principal p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: justify;
     }
 
@@ -213,9 +213,9 @@ main section.video div.divDois p {
     }
 
     main section.video h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: bold;
-        margin: 0 0 1vw 0;
+        margin: 0 10vw 1vw 10vw;
         font-style: oblique;
         text-shadow: 2px 1px 9px rgb(211, 205, 205);
     }

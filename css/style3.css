@@ -279,7 +279,7 @@ main section.terceira h3 {
 
 @media (max-width: 600px) {
   header div#texTop p {
-    margin: 0 0 0 20vw;
+    margin: 0 0 5vw 0vw;
   }
 
   main section.principal div.maior {
@@ -294,7 +294,7 @@ main section.terceira h3 {
   }
 
   main section.principal h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -308,7 +308,7 @@ main section.terceira h3 {
   }
 
   main section.segunda h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -322,7 +322,7 @@ main section.terceira h3 {
   }
 
   main section.terceira h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 
