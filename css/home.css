@@ -392,7 +392,7 @@ main.homePage section.segunda div.topicos2 div.artigoTres a:hover h3 {
 
 }
 
-@media (max-width: 1280px) and (min-width: 601px){
+@media (max-width: 1280px){
     main.homePage section.topicos {
         padding: 8vw 2vw 5vw 2vw;
     }
@@ -594,6 +594,34 @@ main.homePage section.segunda div.topicos2 div.artigoTres a:hover h3 {
 
     main.homePage section.segunda div.topicos2 h4 {
         font-size: 3vw;
+}
+
+@media (max-width: 900px){
+    header div#texTop{
+        margin: 25vw 0;
+    }
+
+    header div#texTop h1{
+        font-size: 3rem;
+    }
+
+    header div#texTop p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 700px){
+    header div#texTop{
+        margin: 22vw 0;
+    }
+
+    header div#texTop h1{
+        font-size: 3rem;
+    }
+
+    header div#texTop p{
+        font-size: 1.3rem;
+    }
 }
 
 }
