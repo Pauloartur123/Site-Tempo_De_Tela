@@ -1,5 +1,7 @@
 header {
     background-image: url(../src/src6/fundo_sobre.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 header p {
@@ -11,15 +13,14 @@ header p {
 ============================*/
 
 main section.principal {
-    margin: 0vw 5vw 0 5vw;
-    padding: 10vw 2vw 5vw 2vw;
+    margin: 0 5vw;
+    padding: 8vw 2vw 5vw;
     border-bottom: 2px black solid;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 main div.borda {
-    padding: 0 8vw 0 8vw;
+    padding: 0 8vw;
 }
 
 main section.principal p {
@@ -30,19 +31,19 @@ main section.principal p {
 main section.principal h2 {
     font-weight: bold;
     font-size: 3rem;
-    margin-top: 0.5vw;
+    margin-top: 1vw;
     font-style: oblique;
     text-shadow: 2px 1px 9px rgb(211, 205, 205);
     text-align: center;
 }
 
 /*==========================
-    segunda
+    Segunda seção
 ============================*/
 
 main section.segunda {
-    margin: 0vw 5vw 0 5vw;
-    padding: 10vw 2vw 5vw 2vw;
+    margin: 0 5vw;
+    padding: 8vw 2vw 5vw;
     border-radius: 0 0 10px 10px;
 }
 
@@ -53,81 +54,106 @@ main section.segunda h2 {
     margin-bottom: 2vw;
 }
 
+main section.segunda ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    padding: 0;
+}
+
 main section.segunda li {
-    font-size: 2rem;
-    text-align: left;
+    font-size: 1.8rem;
     color: rgb(61, 61, 61);
     text-align: center;
 }
 
-main section.segunda ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 5vw 0 5vw;
-}
+/*==========================
+    Responsividade
+============================*/
 
-@media (max-width: 1920px) and (min-width: 1281px) {
-    main section.principal p {
-        font-size: 1.5rem;
-    }
-
-    main section.segunda h2 {
-        font-size: 3rem;
-        text-align: center;
-    }
-
-    main section.segunda h3 {
-        font-size: 2rem;
-    }
-
+@media (max-width: 1280px) {
+    main section.principal p,
     main section.segunda p {
-        font-size: 1.2rem;
-        text-align: center;
-    }
-}
-
-@media (max-width: 600px) {
-    header div#texTop p {
-        margin: 0 0 5vw 0vw;
+        font-size: 1.3rem;
     }
 
-    main section.principal div.maior {
-        display: block;
-    }
-
-    main section.principal img {
-        height: 40vw;
-        width: 90%;
-        margin: 0 0 0 5%;
-
-    }
-
-    main section.principal h2 {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    main section.principal p {
-        font-size: 1.2rem;
-        text-align: justify;
-    }
-
+    main section.principal h2,
     main section.segunda h2 {
-        font-size: 2rem;
-        text-align: center;
+        font-size: 2.5rem;
     }
 
     main section.segunda ul {
-        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    main section.principal h2,
+    main section.segunda h2 {
+        font-size: 2.2rem;
+        margin-top: 3vw;
     }
 
-    main section.segunda h3 {
+
+    header div#texTop{
+        margin: 28vw 0;
+    }
+
+
+    header div#texTop p{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 601px) {
+    header div#texTop{
+        font-size: 2rem;
+        margin: 16vw 1vw;
+    }
+}
+
+@media (max-width: 768px) {
+    header p {
+        margin-left: 10vw;
+        font-size: 1.2rem;
+    }
+
+    main section.principal {
+        padding: 5vw 2vw;
+    }
+
+    main section.principal h2,
+    main section.segunda h2 {
         font-size: 2rem;
     }
 
+    main section.principal p,
     main section.segunda p {
         font-size: 1.2rem;
-        text-align: center;
+    }
+
+    main section.principal img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    header p {
+        margin-left: 5vw;
+        font-size: 1rem;
+    }
+
+    main section.principal h2,
+    main section.segunda h2 {
+        font-size: 1.8rem;
+    }
+
+    main section.principal p,
+    main section.segunda p {
+        font-size: 1rem;
     }
 }

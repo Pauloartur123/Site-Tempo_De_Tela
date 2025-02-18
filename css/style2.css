@@ -3,6 +3,8 @@
 ============================*/
 header {
     background-image: url(../src/src2/Fundo2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /*==========================
@@ -10,26 +12,29 @@ header {
 ============================*/
 
 main section.principal {
-    margin: 0vw 5vw 0 5vw;
+    margin: 0 5vw;
     padding: 10vw 2vw 5vw 2vw;
-    border-bottom: 2px black solid;
+    border-bottom: 2px solid black;
     border-radius: 10px 10px 0 0;
 }
 
 main section div.borda {
-    padding: 0 8vw 0 8vw;
+    padding: 0 8vw;
 }
 
 main section.principal h3 {
     margin-top: 2vw;
     text-align: right;
     font-size: 1.2vw;
-    color: rgb(0, 0, 0);
+    color: #000;
     font-style: italic;
 }
 
 main section.principal div.maior {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 main section.principal div.borda p {
@@ -43,209 +48,167 @@ main section.principal h2 {
     margin-top: 0.5vw;
     font-style: oblique;
     text-shadow: 2px 1px 9px rgb(211, 205, 205);
+    text-align: center;
 }
 
 main section.principal img {
-    height: 14vw;
-    width: 16vw;
+    max-width: 100%;
+    height: auto;
     margin: 1vw;
-    border: 2px black solid;
+    border: 2px solid black;
     border-radius: 10px;
 }
-
-
-
 
 /*==============================
            section 2
 ==============================*/
 main section.video {
-    margin: 0vw 5vw 0 5vw;
+    margin: 0 5vw;
     text-align: center;
-    padding: 5vw 2vw 5vw 2vw;
+    padding: 5vw 2vw;
 }
 
 main section div.grande {
-    border: 3px black solid;
+    border: 3px solid black;
     border-radius: 10px;
-    margin: 0 15vw 0 15vw;
+    margin: 0 auto;
     background-image: url(../src/src1/fundoGeral.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2vw;
+    max-width: 80%;
 }
 
 main section.video div.maior {
     display: flex;
     justify-content: center;
-}
-
-main section.video h3 {
-    font-size: 1.3rem;
-    margin-right: 2vw;
-    margin-top: 1vw;
-    margin-bottom: 2vw;
-    color: white;
-}
-
-main section.video h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    font-style: oblique;
-    text-shadow: 2px 1px 9px rgb(211, 205, 205);
-    margin: 0 8vw 1vw 8vw;
-
-}
-
-main section.video p {
-    font-size: 2rem;
-    color: rgb(61, 61, 61);
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 main section.video iframe {
-    height: 30vw;
-    width: 53vw;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    aspect-ratio: 16/9;
     border-radius: 10px;
-    margin-top: 2vw;
-    border: 2px black solid;
-}
-
-main section.video .con-like .outline {
-    fill: rgb(255, 255, 255);
-}
-
-main section.video .con-like {
-    margin-left: 25vw;
+    border: 2px solid black;
 }
 
 main section.video img.imgDois {
-    height: 3vw;
-    width: 4vw;
-    background-repeat: round;
-    border: 2px black solid;
-    border-radius: 60%;
-    margin: 0 0.5vw 0 0vw;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 0.5vw;
 }
 
-main section.video div.divDois h4 {
-    font-weight: bold;
-    margin-top: 0.5vw;
-    color: white;
-    text-align: left;
-}
+@media (max-width: 1314px){
+    header div#texTop h1{
+        font-size: 5.5rem;
+    }
 
-main section.video div.divDois p {
-    margin-left: 12px;
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-    text-align: left;
-}
-
-@media (max-width: 1920px) and (min-width: 1281px) {
-
-    main section.principal p {
-        font-size: 2.2rem;
+    header div#texTop p{
+        margin: 0;
     }
 
 }
 
-@media (max-width: 1280px) and (min-width: 601px) {
+@media (max-width: 1280px) {
+    header div#texTop p{
+        margin: 0;
+    }
+
+    header div#texTop h1{
+        font-size: 5rem;
+    }
+
+    main section.principal h2, main section.video h2 {
+        font-size: 2.5rem;
+    }
+    main section.principal p {
+        font-size: 1.8rem;
+    }
     main section.principal img {
-        height: 20vw;
-        width: 20vw;
-    }
-
-    main section.principal h2 {
-        font-size: 3.5rem;
-    }
-
-    main section.principal p {
-        font-size: 2rem;
-    }
-
-    main section.principal img.dois {
-        height: 20vw;
-        width: 20vw;
-    }
-
-    main section.video h2 {
-        font-size: 3.5rem;
+        max-width: 80%;
     }
 }
 
-@media (max-width: 600px) {
-    header div#texTop p {
-        margin: 0 0 5vw 0vw;
+@media (max-width: 1094px){
+    header div#texTop p{
+        margin: 0;
+    }
+
+    header div#texTop h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 876px) and (min-width: 769px) {
+    header div#texTop{
+        font-size: 2rem;
+        margin: 20vw 1vw;
+    }
+    header div#texTop h1{
+        font-size: 4rem;
+    }
+    header div#texTop p{
+        font-size: 2rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header div#texTop{
+        font-size: 2rem;
+        margin: 20vw 1vw;
+    }
+    header div#texTop h1{
+        font-size: 3.3rem;
+    }
+    header div#texTop p{
+        font-size: 2rem;
+        margin: 0;
     }
 
     main section.principal div.maior {
         display: block;
-    }
-
-    main section.principal img {
-        height: 40vw;
-        width: 90%;
-        margin: 0 0 0 5%;
-
-    }
-
-    main section.principal h2 {
-        font-size: 2rem;
         text-align: center;
     }
-
-    main section.principal p {
-        font-size: 1.5rem;
-        text-align: justify;
+    main section.principal img {
+        max-width: 100%;
+        height: auto;
+        margin: 2vw auto;
     }
-
-    main section.principal img.dois {
-        display: none;
-    }
-
-    main section.principal h3 {
-        font-size: 1rem;
-    }
-
-    main section div.grande {
-        border: 3px black solid;
-        border-radius: 10px;
-        margin: 0 5vw 0 5vw;
-        background-image: url(../src/src1/fundoGeral.png);
-    }
-
-    main section.video h2 {
-        font-size: 2rem;
-        font-weight: bold;
-        margin: 0 10vw 1vw 10vw;
-        font-style: oblique;
-        text-shadow: 2px 1px 9px rgb(211, 205, 205);
-    }
-
-    main section.video img.imgDois {
-        height: 6vw;
-        width: 8vw;
-        margin: 0 1vw 0 0.8vw;
-    }
-
-    main section.video div.divDois h4 {
-        font-size: 1rem;
-    }
-
-    main section.video div.divDois p {
-        font-size: 0.8rem;
-        margin-left: 0;
-    }
-
     main section.video iframe {
-        height: 40vw;
         width: 100%;
-        border-radius: 10px;
-        margin-top: 0vw;
-        border: 2px black solid;
+        height: auto;
     }
+}
 
-    main section.video .con-like {
-        margin-left: 5vw;
-        width: 5vw;
+@media (max-width: 700px) and (min-width: 601px) {
+    header div#texTop{
+        font-size: 2rem;
+        margin: 15vw 1vw;
     }
+    header div#texTop h1{
+        font-size: 2.5rem;
+    }
+    header div#texTop p{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+}
 
+@media (max-width: 480px) {
+    main section.principal h2, main section.video h2 {
+        font-size: 2rem;
+    }
+    main section.principal p {
+        font-size: 1.4rem;
+    }
+    main section.video img.imgDois {
+        height: 30px;
+        width: 30px;
+    }
 }

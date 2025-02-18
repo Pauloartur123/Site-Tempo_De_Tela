@@ -393,83 +393,210 @@ main.homePage section.segunda div.topicos2 div.artigoTres a:hover h3 {
 }
 
 @media (max-width: 1280px) and (min-width: 601px){
-    main.homePage #irmaoTela h3 {
-        font-size: 1.8rem;
+    main.homePage section.topicos {
+        padding: 8vw 2vw 5vw 2vw;
     }
 
-    main.homePage #irmaoTela {
-        height: 32vw;
+    main.homePage section.topicos {
+        display: block;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoUm {
-        height: 35vw;
-        margin-left: 5vw;
+    main.homePage section.topicos #tempoTela {
+        margin: 0 8vw 15vw 8vw;
+        padding-right: 0vw;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoUm h3 {
-        font-size: 1.8rem;
+    main.homePage section.topicos #tempoTela h2 {
+        font-size: 5vw;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoDois {
-        height: 35vw;
+    main.homePage section.topicos div#tempoTela p {
+        font-size: 3vw;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoDois h3 {
-        font-size: 1.8rem;
+    main.homePage section.topicos #tempoTela h3 {
+        font-size: 4vw;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoTres {
-        height: 35vw;
-        margin-right: 5vw;
+    main.homePage section.topicos #irmaoTela {
+        box-shadow: 2px 1px 9px black;
+        height: 60vw;
+        background-color: white;
+        margin: 0 3vw 0 3vw;
+        border: 2px black solid;
+        transition: all 0.5s;
     }
 
-    main.homePage section.segunda div.topicos2 a div.artigoTres h3 {
-        font-size: 1.8rem;
+    main.homePage section.topicos #irmaoTela img {
+        height: 30vw;
+        width: 100%;
+        margin: 0 0 0.4vw 0.6px;
+    }
+
+    main.homePage section.topicos #irmaoTela img.imgDois {
+        height: 6vw;
+        width: 8vw;
+        margin: 0 1vw 0 0.8vw;
+    }
+
+    main.homePage section.topicos p span {
+        display: none;
+    }
+
+    main.homePage section.topicos #irmaoTela h3 {
+        font-size: 3rem;
+        margin: 0.3vw 0 0 10px;
+    }
+
+    main.homePage section.topicos #irmaoTela h4 {
+        font-size: 2rem;
+        margin: 0.3vw 0 0 10px;
+    }
+
+    main.homePage section.topicos #irmaoTela p {
+        font-size: 1.5rem;
+        margin: 0.3vw 0 0 10px;
+    }
+
+    main.homePage section.topicos #tempoTela p {
+        font-size: 5vw;
+        color: rgb(61, 61, 61);
+    }
+
+    main.homePage section.topicos .con-like {
+        margin-left: 90%;
+        width: 5vw;
+    }
+
+    main.homePage section.segunda div.topicos2 {
+        display: block;
+    }
+
+    main.homePage section.segunda div.topicos2 p {
+        font-size: 1.5rem;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoUm {
+        height: 60vw;
+        margin: 0 5vw 0 5vw;
     }
 
     main.homePage section.segunda div.topicos2  div.artigoUm img {
+        height: 30vw;
         width: 100%;
+        margin: 0 0 0.4vw 0.6px;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoUm img.imgDois {
+        height: 6vw;
+        width: 8vw;
+        margin: 0 1vw 0 0.8vw;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoUm h3 {
+        font-size: 3rem;
+        margin: 0.3vw 0 0 10px;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoUm p span {
+        display: none;
+    }
+
+    main.homePage section.segunda .topicos2 {
+        display: block;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoDois {
+        height: 60vw;
+        margin: 5vw 5vw 0 5vw;
     }
 
     main.homePage section.segunda div.topicos2  div.artigoDois img {
+        height: 30vw;
         width: 100%;
+        margin: 0 0 0.4vw 0.6px;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoDois img.imgDois {
+        height: 6vw;
+        width: 8vw;
+        margin: 0 1vw 0 0.8vw;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoDois h3 {
+        font-size: 3rem;
+        margin: 0.3vw 0 0 10px;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoDois p span {
+        display: none;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoTres {
+        height: 60vw;
+        margin: 5vw 5vw 0 5vw;
     }
 
     main.homePage section.segunda div.topicos2  div.artigoTres img {
+        height: 30vw;
         width: 100%;
+        margin: 0 0 0.4vw 0.6px;
     }
 
-    main.homePage section.segunda div.topicos2 .con-like {
+    main.homePage section.segunda div.topicos2  div.artigoTres img.imgDois {
+        height: 6vw;
+        width: 8vw;
+        margin: 0 1vw 0 0.8vw;
+    }
+    main.homePage section.segunda div.topicos2  div.artigoTres h3 {
+        font-size: 3rem;
+        margin: 0.3vw 0 0 10px;
+    }
+
+    main.homePage section.segunda div.topicos2  div.artigoTres p span {
+        display: none;
+    }
+
+    main.homePage section.segunda div.topicos2  .con-like {
         margin-left: 90%;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoUm  a:hover img.um {
+    main.homePage section.segunda div.topicos2  div.artigoUm a:hover img.um {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoUm a:hover h3  {
-        font-size: 1.8rem;
+    main.homePage section.segunda div.topicos2  div.artigoUm a:hover h3 {
+        font-size: 1.2rem;
 
     }
 
-    main.homePage section.segunda div.topicos2  div.artigoDois  a:hover img.um {
+    main.homePage section.segunda div.topicos2  div.artigoDois a:hover img.um {
         width: 100%;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoDois  a:hover h3 {
-        font-size: 1.8rem;
+    main.homePage section.segunda div.topicos2  div.artigoDois a:hover h3 {
+        font-size: 1.2rem;
     }
 
-    main.homePage section.segunda div.topicos2 div.artigoTres a:hover img.um {
+    main.homePage section.segunda div.topicos2  div.artigoTres a:hover img.um {
         width: 100%;
     }
 
     main.homePage section.segunda div.topicos2  div.artigoTres a:hover h3 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
 
     }
+
+    main.homePage section.segunda div.topicos2 .con-like {
+        width: 6%;
+        margin-left: 90%;
+    }
+
+    main.homePage section.segunda div.topicos2 h4 {
+        font-size: 3vw;
 }
 
+}
 @media (max-width: 600px) {
     main.homePage section.topicos {
         padding: 8vw 2vw 5vw 2vw;
@@ -546,7 +673,7 @@ main.homePage section.segunda div.topicos2 div.artigoTres a:hover h3 {
     }
 
     main.homePage section.segunda div.topicos2 p {
-        font-size: 0.8rem;
+        font-size: 0.3rem;
     }
 
     main.homePage section.segunda div.topicos2  div.artigoUm {
